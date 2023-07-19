@@ -90,8 +90,7 @@ autor:ahsan Contact Whatsup + skype +923014749625;
     align-items: center;
     font-size: 16px;
     padding: 10px 15px;
-    border: 1px solid var(--border);
-    border-radius: 25px;
+    border: 1px solid #ffbaba;
     outline: none;
     color: var(--icons);
 }
@@ -1133,8 +1132,11 @@ autor:ahsan Contact Whatsup + skype +923014749625;
     background-color: #ffeeed;
     padding: 5px 15px;
     font-size: 14px;
-    color: #707070;
+    color: var(--light-blue);
     position: relative;
+}
+.searchBox_input::placeholder{
+    color: var(--light-blue);
 }
 .searchBoxBtn{
     display: flex;
@@ -1143,7 +1145,7 @@ autor:ahsan Contact Whatsup + skype +923014749625;
     background-color: none;
     background: none;
     border: none;
-    color: #707070;
+    color: var(--light-blue);
     font-size: 16px;
     outline: none;
     position: absolute;
