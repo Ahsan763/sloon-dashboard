@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72.771" height="72.771" viewBox="0 0 72.771 72.771">
+  <g id="Group_130" data-name="Group 130" transform="translate(0 -32)">
+    <path id="Path_523" data-name="Path 523" d="M36.385,0A36.385,36.385,0,1,1,0,36.385,36.385,36.385,0,0,1,36.385,0Z" transform="translate(0 32)" fill="#2d343f"/>
+    <g id="Layer_2" data-name="Layer 2" transform="translate(22 57)">
+      <path id="Path_524" data-name="Path 524" d="M29,8H26V5a1,1,0,0,0-1-1H3A1,1,0,0,0,2,5V23a1,1,0,0,0,1,1H6v3a1,1,0,0,0,1,1H29a1,1,0,0,0,1-1V9A1,1,0,0,0,29,8ZM4,22V6H24V8H7A1,1,0,0,0,6,9V22Zm24,4H8V10H28Z" transform="translate(-2 -4)" fill="#b9b9b9"/>
+      <path id="Path_525" data-name="Path 525" d="M20.08,15a1,1,0,0,0-.79.29L15.8,18.78l-1.36-.68a1,1,0,0,0-1.25.29l-3,4A1,1,0,0,0,11,24H25a1,1,0,0,0,.81-1.58l-5-7A1,1,0,0,0,20.08,15ZM13,22l1.3-1.73,1.25.63a1,1,0,0,0,1.15-.19l3.17-3.17L23.06,22Z" transform="translate(-2 -4)" fill="#b9b9b9"/>
+      <circle id="Ellipse_127" data-name="Ellipse 127" cx="2" cy="2" r="2" transform="translate(8 8)" fill="#b9b9b9"/>
+    </g>
+  </g>
+</svg>

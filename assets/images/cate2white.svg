@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.5" height="25.5" viewBox="0 0 25.5 25.5">
+  <g id="_172473_globe_global_internet_icon" data-name="172473_globe_global_internet_icon" transform="translate(0.5 0.208)">
+    <rect id="Rectangle_300" data-name="Rectangle 300" width="25" height="25" transform="translate(0 -0.208)" fill="none"/>
+    <circle id="Ellipse_109" data-name="Ellipse 109" cx="12" cy="12" r="12" transform="translate(0 0.792)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <ellipse id="Ellipse_110" data-name="Ellipse 110" cx="6" cy="12" rx="6" ry="12" transform="translate(6 0.792)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path_96" data-name="Path 96" d="M6.365,38.2A18.218,18.218,0,0,1,15.6,36a18.353,18.353,0,0,1,9.149,2.144" transform="translate(-3.209 -18.15)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path_97" data-name="Path 97" d="M24.937,9.563a18.223,18.223,0,0,1-9.24,2.2A18.354,18.354,0,0,1,6.549,9.619" transform="translate(-3.302 -4.821)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_6" data-name="Line 6" x2="24" transform="translate(0 12.792)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_7" data-name="Line 7" y2="24" transform="translate(12 0.792)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

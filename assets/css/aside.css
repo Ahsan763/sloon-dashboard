@@ -1,0 +1,162 @@
+/*
+autor:ahsan Contact Whatsup + skype +923014749625;
+*/
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root{
+	--white: #fff;
+	--off-white: #F4F6F9;
+	--off-white2: #ffeeed;
+	--orange: #FA5D46;
+	--sky-blue: #EDF1FE;
+	--light-blue: #e3342e;;
+	--light-purple: #4C4C6F;
+	--icons: #898989;
+	--border: #F4F4F4;
+	--mid-black: #3B3A3A;
+	--cyan:#3AB4F2;
+	--aside: 280px;
+	--grey:#9A9A9A;
+	--green:  #10CE3C;
+}
+.orange{
+	color: var(--orange);
+}
+.green{
+	color: var(--green);
+}
+.aside{
+    width: 280px;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+    overflow-y: scroll;
+    transition: width 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.aside.active{
+    width: 0px;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+    overflow-y: scroll;
+    transition: width 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.aside::-webkit-scrollbar {
+    display: none;
+}
+.logo_wrapper{
+    padding: 10px 30px;
+    gap: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 65px;
+    background-color: #fff;
+    z-index: 1;
+    transition: none !important;
+}
+.logo_img{
+    width: 50px;
+    height: auto;
+}
+.logo_text{
+    font-size: 21px;
+    color: var(--mid-black);
+    font-family: 'Tajawal';
+}
+.aside_container{
+    margin-top: 65px;
+    padding: 10px 15px 0 22px;
+}
+.asidbox{
+    padding: 12px 18px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    transition: none !important;
+}
+.aside-drop{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffeeed;
+    padding: 10px 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    width: 100%;
+    display: none;
+}
+.aside-drop li{
+    padding: 5px 0;
+}
+.asidbox:hover .aside-drop,.asidbox.active .aside-drop{
+    display: flex;
+}
+.asidbox:hover,.asidbox.active{
+    background-color: #ffeeed;
+}
+.asidbox_Link2 {
+    font-size: 18px;
+    color: #ffbaba;
+    display: flex;
+    align-items: center;
+}
+.asidbox_Link2:hover,.asidbox_Link2.active{
+    color: var(--light-blue);
+}
+.asidbox_icons{
+    width: 40px;
+    display: flex;
+    align-items: center;
+}
+.asidbox_icons_icon{
+    font-size: 22px;
+    color: #ffbaba;
+}
+.asidbox:hover .asidbox_Link,.asidbox.active .asidbox_Link{
+    color: #e3342e;
+}
+.asidbox.active .asidbox_icons_icon,
+.asidbox:hover .asidbox_icons_icon{
+    color: #e3342e;
+}
+.asidbox_Link{
+    font-size: 22px;
+    color:  #e75d5d;
+    display: flex;
+    align-items: center;
+}
+.asidbox_LinkIcn{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.asidbox:hover .asidbox_LinkIcn,.asidbox.active .asidbox_LinkIcn{
+    transform: rotate(90deg);
+}
+.madeby{
+    color: #e3342e;;
+    font-weight: 700;
+}
+.madebytexbox{
+    font-size: 14px;
+    color: #767676;
+    column-gap: 3px;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}

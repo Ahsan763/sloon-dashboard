@@ -1,0 +1,686 @@
+<!doctype html>
+<html dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<!-- Favicons -->
+		<link href="assets/css/darkTheme.css" rel="stylesheet">
+		<link href="assets/images/favicone.png" rel="icon">
+		<!-- font aweasome -->
+		<link rel="stylesheet" href="dist/fontawesome-6.2.0/css/all.min.css">
+		<!-- bootstrap 5.2.2 -->
+		<link href="dist/bootstrap-5.2.2/css/bootstrap.rtl.min.css" rel="stylesheet">
+		<link href="dist/bootstrap-5.2.2/css/bootstrap.min.css" rel="stylesheet">
+		<!-- owl -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+		<!-- fonts -->
+		<link href="dist/fonts/fonts.css" rel="stylesheet">
+		<!-- Main Stylesheet File -->
+		<link href="assets/css/aside.css" rel="stylesheet">
+		<link href="assets/css/main.css" rel="stylesheet">
+		<link href="assets/css/main.css" rel="stylesheet">
+		<link href="assets/css/style.css" rel="stylesheet">
+		<link href="assets/css/media_queries.css" rel="stylesheet">
+		<link href="assets/css/rtl.css" rel="stylesheet">
+		<style>
+			body{
+				visibility: hidden;
+				opacity: 0;
+			}
+		</style>
+		<noscript>
+			<style>
+				body{
+					visibility: visible;
+					opacity: 1;
+				}
+			</style>
+		</noscript>
+	</head>
+<body>
+<div class="body-wrapper">
+	<div class="dashboard-wrapper flex">
+		<aside class="aside">
+			<button type="button" class="asideClose">
+				<i class="fa-solid fa-xmark"></i>
+			</button>
+			<a href="/" class="logo_wrapper flex items-center">
+				<div class="logo_holder">
+					<img src="assets/images/logo.png" alt="skilled logo" class="logo_img dark-none" />
+				</div>
+			</a>
+			<div class="aside_container">
+				<a href="/" class="asidbox active">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-gauge asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Dashboard
+					</p>
+				</a>
+				
+			
+				<a href="orders.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-bag-shopping asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Orders
+					</p>
+				</a>
+				<a href="returns.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-rotate-left asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Returns
+					</p>
+				</a>
+				<a href="customers.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-people-carry-box asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Customers
+					</p>
+				</a>
+				<a href="settings.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-gear asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Settings
+					</p>
+				</a>
+				<a href="reports.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-chart-column asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Reports
+					</p>
+				</a>
+				<a href="roles.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-user-shield asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Role
+					</p>
+				</a>
+				<a href="employee.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-user-tie asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Employee
+					</p>
+				</a>
+				<a href="stores.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-shop asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Stores
+					</p>
+				</a>
+				<a href="users.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-users asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Users
+					</p>
+				</a>
+				<a href="services.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-headset asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Services
+					</p>
+				</a>
+				<a href="terms.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-file-signature asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Terms
+					</p>
+				</a>
+				<a href="privacy-policy.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-user-lock asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Privacy policy
+					</p>
+				</a>
+				
+				<div class="flex items-center madebytexbox">
+					Made <span class="madeby"> By </span> Skilled Tech
+				</div>
+			</div>
+		</aside>
+		<main class="main">
+			<div class="dashboard_header">
+				<div class="navbar">
+					<button class="sidebar_btn">
+						<i class="fa-solid fa-bars-staggered sidebar_btn_icon"></i>
+					</button>
+					<div class="navbar_box1">
+						<p class="navbar_box_text">Hello Admin</p>
+					</div>
+					<div class="navbar_box2">
+						<!-- <div class="navbar_search_box">
+							<input type="text" placeholder="Search" class="navbar_search_box_input" />
+							<button type="submit" class="navbar_search_box_btn">
+								<i class="fa fa-search navbar_search_box_btn_icone"></i>
+							</button>
+						</div> -->
+						<div class="navbar_notifications_box flex items-center">
+							<div class="navbar_noti_box">
+								<div class="navbar_noti_box_counter navbar_noti_box_counter2">
+									8
+								</div>
+								<i class="fa-regular fa-bell navbar_noti_box_icone"></i>
+								<div class="navbar_noti_box_details">
+									<div class="navbar_noti_box_details_for_hover"></div>
+									<div class="navbar_noti_box_details_header">
+										Notification
+									</div>
+									<div class="navbar_noti_box_details_body">
+										<div class="navbar_noti_box_no-notification">
+											<img src="assets/images/no-notification.png" class="navbar_noti_box_no-notification_img" />
+										</div>
+										<h6 class="navbar_noti_box_no-notification_text">No Think Yet</h6>
+									</div>
+								</div>
+							</div>
+							<!-- profile button with dropdown -->
+							<div class="navbar_profile_box flex items-center dropdown-toggle"
+							role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"
+							>
+								<div class="navbar_profile_box_img_holder">
+									<img src="assets/images/profile.png" alt="" class="navbar_profile_box_img" />
+								</div>
+								<h6 class="navbar_profile_box_name">Muhammad</h6>
+								<ul class="dropdown-menu navbar_profile_box_menu" aria-labelledby="dropdownMenuLink">
+									<li class="navbar_profile_box_menu_item">
+										<a href="#" class="navbar_profile_box_menu_link">
+											<div class="navbar_profile_box_menu_item_icone">
+												<i class="fa-regular fa-user navbar_profile_box_menu_item_icone_img"></i>
+											</div>
+											<h6 class="navbar_profile_box_menu_item_text">My Profile</h6>
+										</a>
+									</li>
+									<li class="navbar_profile_box_menu_item">
+										<a href="#" class="navbar_profile_box_menu_link">
+											<div class="navbar_profile_box_menu_item_icone">
+												<i class="fa fa-gear navbar_profile_box_menu_item_icone_img"></i>
+											</div>
+											<h6 class="navbar_profile_box_menu_item_text">Profile Setting</h6>
+										</a>
+									</li>
+									<li class="navbar_profile_box_menu_item">
+										<a href="#" class="navbar_profile_box_menu_link">
+											<div class="navbar_profile_box_menu_item_icone">
+												<i class="fa-solid fa-shield-halved navbar_profile_box_menu_item_icone_img"></i>
+											</div>
+											<h6 class="navbar_profile_box_menu_item_text">Action</h6>
+										</a>
+									</li>
+									<li class="navbar_profile_box_menu_item">
+										<a href="#" class="navbar_profile_box_menu_link">
+											<div class="navbar_profile_box_menu_item_icone">
+												<i class="fa-solid fa-arrow-right-from-bracket navbar_profile_box_menu_item_icone_img"></i>
+											</div>
+											<h6 class="navbar_profile_box_menu_item_text navbar_profile_box_menu_item_text2">Log Out</h6>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<!-- profile button with dropdown -->
+						</div>
+					</div>
+				</div>
+				<div class="navbar_search_box_mobile">
+					<input type="text" placeholder="search" class="navbar_search_box_mobile_input" />
+				</div>
+				<div class="bottom_navbar">
+					<div class="bottom_navbar_left">
+						<div class="bottom_navbar_datebox flex items-center">
+							<i class="fa-solid fa-calendar-days bottom_navbar_datebox_icon"></i>
+							<h6 class="bottom_navbar_datebox_date">28, June</h6>
+						</div>
+						<div class="bottom_navbar_left_page flex items-center">
+							<div class="bottom_navbar_left_page_dot"></div>
+							<p class="bottom_navbar_left_page_name">Dashboard</p>
+						</div>
+					</div>
+					<div class="bottom_navbar_right">
+						<div class="language_toggle">
+							<div class="language_toggle_ar">
+								<img src="assets/images/ar.svg" class="language_toggle_ar_img dark-none" />
+								<img src="assets/images/arWhite.svg" class="language_toggle_ar_img d-none dark-show" />
+							</div>
+							<div class="language_toggle_en">
+								<img src="assets/images/en.svg" class="language_toggle_ar_img dark-none" />
+								<img src="assets/images/enWhite.svg" class="language_toggle_ar_img d-none dark-show" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main_body">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12 col-lg-12 col-xl-8">
+							<div class="card">
+								<div class="row dashboard_box_wrapper">
+									<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-3">
+										<div class="dashboard_box">
+											<div class="dashboard_box_row flex items-center justify-between">
+												<div class="ellipsis_circle">
+													<img src="assets/images/projects.png" alt="" class="ellipsis_circle_img dark-none" />
+													<img src="assets/images/projects_white.png" alt="" class="ellipsis_circle_img dark-show d-none" />
+												</div>	
+											</div>
+											<div class="dashboard_box_row2">
+												<h1 class="dashboard_box_row_heading">3</h1>
+												<p class="dashboard_box_row_desc">Saloons</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-3">
+										<div class="dashboard_box">
+											<div class="dashboard_box_row flex items-center justify-between">
+												<div class="ellipsis_circle">
+													<img src="assets/images/services.png" alt="" class="ellipsis_circle_img dark-none" />
+													<img src="assets/images/services_white.png" alt="" class="ellipsis_circle_img d-none dark-show" />
+												</div>	
+											</div>
+											<div class="dashboard_box_row2">
+												<h1 class="dashboard_box_row_heading">12</h1>
+												<p class="dashboard_box_row_desc">Services</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-3">
+										<div class="dashboard_box">
+											<div class="dashboard_box_row flex items-center justify-between">
+												<div class="ellipsis_circle">
+													<img src="assets/images/orders.png" alt="" class="ellipsis_circle_img" />
+												</div>	
+											</div>
+											<div class="dashboard_box_row2">
+												<h1 class="dashboard_box_row_heading">70</h1>
+												<p class="dashboard_box_row_desc">Bookings</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-3">
+										<div class="dashboard_box">
+											<div class="dashboard_box_row flex items-center justify-between">
+												<div class="ellipsis_circle">
+													<img src="assets/images/users.png" alt="" class="ellipsis_circle_img dark-none" />
+													<img src="assets/images/users_white.png" alt="" class="ellipsis_circle_img d-none dark-show" />
+												</div>	
+											</div>
+											<div class="dashboard_box_row2">
+												<h1 class="dashboard_box_row_heading">50</h1>
+												<p class="dashboard_box_row_desc">Team Members</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card_header">
+									<h4 class="card_header_heading">Recent Booking</h4>
+								</div>
+								<div class="hr_card">
+									<div class="hr_cardhdr">
+										<div class="hr_cardhdrB1">
+											<div class="hr_cardhdrB1Hol">
+												<img src="assets/images/recentview1.png" alt="" class="hr_cardhdrB1Img" />
+											</div>
+											<div class="hr_cardhdrB1Ctnt">
+												<h6 class="hr_cardhdrB1CtntHdng">Muhammad Ahsan</h6>
+												<a href="tel:" class="hr_cardhdrB1Stars">
+													0563255654
+												</a>
+											</div>
+										</div>
+										<div class="hr_cardhdrB2">
+											<p class="hr_cardhdrB2Date">20 April 2022</p>
+											<p class="hr_cardhdrB2Date">10.50 Pm</p>
+										</div>
+										<div class="hr_cardhdrB3">
+											<button class="hr_cardhdrBtn">
+												<i class="fa-solid fa-check hr_cardhdrBtnIcn"></i>
+											</button>
+											<button class="hr_cardhdrBtn" data-bs-toggle="modal" data-bs-target="#deleteModal">
+												<i class="fa-solid fa-trash-can hr_cardhdrBtnIcn1"></i>
+											</button>
+										</div>
+									</div>
+								</div>
+								<div class="hr_card">
+									<div class="hr_cardhdr">
+										<div class="hr_cardhdrB1">
+											<div class="hr_cardhdrB1Hol">
+												<img src="assets/images/recentview1.png" alt="" class="hr_cardhdrB1Img" />
+											</div>
+											<div class="hr_cardhdrB1Ctnt">
+												<h6 class="hr_cardhdrB1CtntHdng">Muhammad Ahsan</h6>
+												<a href="tel:" class="hr_cardhdrB1Stars">
+													0563255654
+												</a>
+											</div>
+										</div>
+										<div class="hr_cardhdrB2">
+											<p class="hr_cardhdrB2Date">20 April 2022</p>
+											<p class="hr_cardhdrB2Date">10.50 Pm</p>
+										</div>
+										<div class="hr_cardhdrB3">
+											<button class="hr_cardhdrBtn">
+												<i class="fa-solid fa-check hr_cardhdrBtnIcn"></i>
+											</button>
+											<button class="hr_cardhdrBtn" data-bs-toggle="modal" data-bs-target="#deleteModal">
+												<i class="fa-solid fa-trash-can hr_cardhdrBtnIcn1"></i>
+											</button>
+										</div>
+									</div>
+								</div>
+								<div class="hr_card">
+									<div class="hr_cardhdr">
+										<div class="hr_cardhdrB1">
+											<div class="hr_cardhdrB1Hol">
+												<img src="assets/images/recentview1.png" alt="" class="hr_cardhdrB1Img" />
+											</div>
+											<div class="hr_cardhdrB1Ctnt">
+												<h6 class="hr_cardhdrB1CtntHdng">Muhammad Ahsan</h6>
+												<a href="tel:" class="hr_cardhdrB1Stars">
+													0563255654
+												</a>
+											</div>
+										</div>
+										<div class="hr_cardhdrB2">
+											<p class="hr_cardhdrB2Date">20 April 2022</p>
+											<p class="hr_cardhdrB2Date">10.50 Pm</p>
+										</div>
+										<div class="hr_cardhdrB3">
+											<button class="hr_cardhdrBtn">
+												<i class="fa-solid fa-check hr_cardhdrBtnIcn"></i>
+											</button>
+											<button class="hr_cardhdrBtn" data-bs-toggle="modal" data-bs-target="#deleteModal">
+												<i class="fa-solid fa-trash-can hr_cardhdrBtnIcn1"></i>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12 col-lg-12 col-xl-4">
+							<div class="card">
+								<div class="card_header">
+									<h4 class="card_header_heading">Team Members</h4>
+									<a href="team-members.html" class="card_header_link">All</a>
+								</div>
+								<div class="recentUsersSlider">
+									<div class="slide">
+										<div class="user_box flex items-center">
+											<div class="user_box_left flex justify-center items-center">
+												<img src="assets/images/recentuser1.png" alt="" class="user_box_left_img" />
+											</div>
+											<div class="user_box_center">
+												<h2 class="user_box_center_heading">Adam John</h2>
+												<p class="user_box_center_desc">adam@gmail.com</p>
+											</div>
+											<div class="user_box_right">
+												<button class="user_box_rightbtn" data-bs-toggle="modal" data-bs-target="#recentUser1">View</button>
+											</div>
+										</div>
+										<div class="user_box flex items-center">
+											<div class="user_box_left flex justify-center items-center">
+												<img src="assets/images/recentuser2.png" alt="" class="user_box_left_img" />
+											</div>
+											<div class="user_box_center">
+												<h2 class="user_box_center_heading">Adam John</h2>
+												<p class="user_box_center_desc">adam@gmail.com</p>
+											</div>
+											<div class="user_box_right">
+												<button class="user_box_rightbtn" data-bs-toggle="modal" data-bs-target="#recentUser1">View</button>
+											</div>
+										</div>
+										<div class="user_box flex items-center">
+											<div class="user_box_left flex justify-center items-center">
+												<img src="assets/images/recentuser3.png" alt="" class="user_box_left_img" />
+											</div>
+											<div class="user_box_center">
+												<h2 class="user_box_center_heading">Adam John</h2>
+												<p class="user_box_center_desc">adam@gmail.com</p>
+											</div>
+											<div class="user_box_right">
+												<button class="user_box_rightbtn" data-bs-toggle="modal" data-bs-target="#recentUser1">View</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+</div>
+<!-- body-wrapper end -->
+
+<!-- Modal -->
+<div class="modal modal-lg fade" id="recentview1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="myModal">
+				<div class="flex">
+					<div type="button" class="text-[#898989] ml-auto" data-bs-dismiss="modal">
+						<i class="fa fa-close"></i>
+					</div>
+				</div>
+				<div class="rcntVwMdlHdr flex justify-between">
+					<div class="rcntVwMdlHdrB1 items-center">
+						<div class="rcntVwMdlHdrB1holdr">
+							<img src="assets/images/har-card3.png" alt="" class="rcntVwMdlHdrB1img" />
+						</div>
+						<div class="rcntVwMdlHdrB1Cntnt">
+							<div class="hr_cardhdrB1Stars">
+								<i class="fa-solid fa-star star"></i>
+								<i class="fa-solid fa-star star"></i>
+								<i class="fa-solid fa-star star"></i>
+								<i class="fa-solid fa-star star"></i>
+								<i class="fa-solid fa-star star"></i>
+							</div>
+							<h4 class="rcntVwMdlHdrB1CntntHdng">Adam John</h4>
+						</div>
+					</div>
+					<div class="rcntVwMdlHdrB2">
+						<p class="rcntVwMdlHdrB2P">20 April 2022</p>
+					</div>
+				</div>
+				<div class="rcntVwMdlBody">
+					<p class="rcntVwMdlBodyP">
+						It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal modal-lg fade" id="recentview2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="myModal">
+				<div class="flex">
+					<div type="button" class="text-[#898989] ml-auto" data-bs-dismiss="modal">
+						<i class="fa fa-close"></i>
+					</div>
+				</div>
+				<div class="rcntVwMdlHdr flex justify-between">
+					<div class="rcntVwMdlHdrB1 items-center">
+						<div class="rcntVwMdlHdrB1holdr">
+							<img src="assets/images/har-card3.png" alt="" class="rcntVwMdlHdrB1img" />
+						</div>
+						<div class="rcntVwMdlHdrB1Cntnt">
+							<div class="hr_cardhdrB1Stars">
+								<i class="fa-solid fa-star star"></i>
+								<i class="fa-solid fa-star star"></i>
+								<i class="fa-solid fa-star star"></i>
+								<i class="fa-solid fa-star star"></i>
+								<i class="fa-solid fa-star star"></i>
+							</div>
+							<h4 class="rcntVwMdlHdrB1CntntHdng">Adam John</h4>
+						</div>
+					</div>
+					<div class="rcntVwMdlHdrB2">
+						<p class="rcntVwMdlHdrB2P">20 April 2022</p>
+					</div>
+				</div>
+				<div class="rcntVwMdlBody">
+					<p class="rcntVwMdlBodyP">
+						It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal modal-lg fade" id="recentview3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="myModal">
+				<div class="flex">
+					<div type="button" class="text-[#898989] ml-auto" data-bs-dismiss="modal">
+						<i class="fa fa-close"></i>
+					</div>
+				</div>
+				<div class="rcntVwMdlHdr flex justify-between">
+					<div class="rcntVwMdlHdrB1 items-center">
+						<div class="rcntVwMdlHdrB1holdr">
+							<img src="assets/images/har-card3.png" alt="" class="rcntVwMdlHdrB1img" />
+						</div>
+						<div class="rcntVwMdlHdrB1Cntnt">
+							<div class="hr_cardhdrB1Stars">
+								<i class="fa-solid fa-star star"></i>
+								<i class="fa-solid fa-star star"></i>
+								<i class="fa-solid fa-star star"></i>
+								<i class="fa-solid fa-star star"></i>
+								<i class="fa-solid fa-star star"></i>
+							</div>
+							<h4 class="rcntVwMdlHdrB1CntntHdng">Adam John</h4>
+						</div>
+					</div>
+					<div class="rcntVwMdlHdrB2">
+						<p class="rcntVwMdlHdrB2P">20 April 2022</p>
+					</div>
+				</div>
+				<div class="rcntVwMdlBody">
+					<p class="rcntVwMdlBodyP">
+						It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="recentUser1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="myModal myModalUSer">
+				<div class="flex">
+					<div type="button" class="text-[#898989] ml-auto" data-bs-dismiss="modal">
+						<i class="fa fa-close"></i>
+					</div>
+				</div>
+				<div class="usrMdlHdr">
+					<div class="usrMdlHdrB2">
+						<p class="usrMdlHdrB2P">User No #1432</p>
+					</div>
+					<div class="usrMdlHdrB1 items-center">
+						<div class="usrMdlHdrB1Holder">
+							<img src="assets/images/har-card3.png" alt="" class="usrMdlHdrB1HolderImg" />
+						</div>
+						<div class="usrMdlHdrB1Contnt">
+							<h4 class="usrMdlHdrB1ContntHdng">Adam John</h4>
+						</div>
+					</div>
+				</div>
+				<div class="rcntVwMdlBody">
+					<div class="rcntVwMdlRow flex items-center">
+						<div class="rcntVwMdlRowIcnH">
+							<i class="fa-regular fa-envelope rcntVwMdlRowIcn"></i>
+						</div>
+						<p class="rcntVwMdlRowP">adam@gmail.com</p>
+					</div>
+					<div class="rcntVwMdlRow flex items-center">
+						<div class="rcntVwMdlRowIcnH">
+							<i class="fa-solid fa-phone rcntVwMdlRowIcn"></i>
+						</div>
+						<p class="rcntVwMdlRowP">+971 502615675</p>
+					</div>
+					<div class="rcntVwMdlRow flex items-center">
+						<div class="rcntVwMdlRowIcnH">
+							<i class="fa-solid fa-location-dot rcntVwMdlRowIcn"></i>
+						</div>
+						<p class="rcntVwMdlRowP">Address</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="myModal myModalUSer">
+				<div class="flex">
+					<div type="button" class="text-[#898989] ml-auto" data-bs-dismiss="modal">
+						<i class="fa fa-close"></i>
+					</div>
+				</div>
+				<div class="delModal">
+					<img src="assets/images/trash.png" alt="" class="delModal_img dark-none" />
+					<img src="assets/images/trash_white.png" alt="" class="delModal_img d-none dark-show" />
+					<h1 class="delModal_heading">Are you sure?</h1>
+					<p class="delModal_desc">
+						you want delete this, you can not return this back again.
+					</p>
+					<div class="delModal_btn_wpr">
+						<button class="delModalBtn delModalBtn1" data-bs-dismiss="modal" aria-label="Close">Cancel</button>
+						<button class="delModalBtn delModalBtn2">Delete</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="dist/jquery-3.6.1/jquery-3.6.1.min.js"></script>
+<script src="dist/bootstrap-5.2.2/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+        theme: {
+        extend: {
+            colors: {
+            clifford: '#da373d',
+            }
+        }
+        }
+    }
+</script>
+<script src="assets/js/scripts.js"></script>
+</body>
+</html>

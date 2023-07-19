@@ -1,0 +1,118 @@
+/*
+autor:ahsan Contact Whatsup + skype +923014749625;
+*/
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root{
+	--white: #fff;
+	--off-white: #F4F6F9;
+	--off-white2: #ffeeed;
+	--orange: #FA5D46;
+	--sky-blue: #EDF1FE;
+	--light-blue: #e3342e;;
+	--light-purple: #4C4C6F;
+	--icons: #898989;
+	--border: #F4F4F4;
+	--mid-black: #3B3A3A;
+	--cyan:#3AB4F2;
+	--aside: 280px;
+	--grey:#9A9A9A;
+	--green:  #10CE3C;
+}
+.orange{
+	color: var(--orange);
+}
+.green{
+	color: var(--green);
+}
+.logins{
+    width: 100%;
+    margin: 50px 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginsBox{
+    max-width: 570px;
+    margin: auto;
+    padding: 0 25px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    border: 1px solid var(--border);
+    position: relative;
+}
+.loginslogo_box_logo{
+    width: auto;
+    height: 100px;
+    image-rendering: auto;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    /* animation: rotation 10s infinite linear; */
+}
+@keyframes rotation{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.loginsBox_heading{
+    font-size: 24px;
+    font-family: 'Tajawal-700';
+    text-align: center;
+    margin-bottom: 40px;
+}
+.form_row{
+    row-gap: 20px;
+}
+.loginsBox_input_label{
+    font-size: 16px;
+    color: var(--mid-black);
+    text-align: left;
+    line-height: 1;
+}
+.loginsBox_input{
+    height: 55px;
+    font-size: 16px;
+    border: 1px solid var(--border);
+}
+.loginsBox_input:focus{
+    box-shadow: none;
+}
+.loginsBox_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 55px;
+    color: var(--white);
+    background-color: var(--light-blue) !important;
+    font-size: 20px;
+    font-family: 'Tajawal-700';
+}
+.loginsBox_button:hover{
+    border: 2px solid var(--light-blue);
+    color: var(--light-blue);
+    background-color: transparent !important; 
+}
+.loginsBox_text{
+    font-size: 16px;
+    font-family: 'Tajawal';
+    color: var(--mid-black);
+}
+.login_link_wrapper{
+    column-gap: 10px;
+}
+.login_link{
+    font-size: 16px;
+    font-family: 'Tajawal-700';
+    color: var(--cyan);
+
+}

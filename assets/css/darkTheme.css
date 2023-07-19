@@ -1,0 +1,322 @@
+.dark .dark-none{
+    display: none;
+}
+.dark .dark-show{
+    display: block !important;
+}
+body.dark,
+.dark .dashboard_box,
+.dark .hr_card,
+.dark .roleTab,
+.dark .main{
+    background-color: #15212D;
+}
+.dark .aside,
+.dark .aside.active,
+.dark .navbar,
+.dark .hr_cardhdrBtn,
+.dark .card,
+.dark .modal-content,
+.dark .hr_card:hover,
+.dark .drp_box,
+.dark .logo_wrapper{
+    background-color: #1A2A3B;
+}
+.dark .navbar_search_box_input,
+.dark .navbar_noti_box,
+.dark .navbar_profile_box,
+.dark .user_box_rightbtn,
+.dark .searchBox_input,
+.dark .tableHdrSelect option,
+.dark .theme_toggle div{
+    background-color: #2D343F;
+}
+.dark .tableHdrSubBtn,
+.dark .tableHdrSelect,
+.dark .bottom_navbar{
+    background-color: rgba(74, 74, 85, 0.3);
+}
+.dark .ellipsis_circle,
+.dark .myModal,
+.dark .aside-drop{
+    background: #1B2632;
+}
+.dark .owl-theme .owl-dots .owl-dot span {
+    background: #fff;
+}
+.dark .owl-theme .owl-dots .owl-dot.active span,
+.dark .owl-theme .owl-dots .owl-dot:hover span{
+    background: #5356E1;
+}
+.dark .asidbox:hover,
+.dark .drp_box_item:hover,
+.dark .drp_box_item:hover,
+.dark .asidbox.active {
+    background-color: transparent;
+}
+/* dark backgrounds color end */
+.dark .navbar_box_text,
+.dark .asidbox_icons_icon,
+.dark .bottom_navbar_datebox_date,
+.dark .bottom_navbar_datebox_icon,
+.dark .dashboard_box_row_heading,
+.dark .navbar_noti_box_icone,
+.dark .card_header_heading,
+.dark .navbar_profile_box_name,
+.dark .hr_cardBtmP,
+.dark .sidebar_btn_icon,
+.dark .madebytexbox,
+.dark .hr_cardBtmPBtn,
+.dark .drp_box_link_icon,
+.dark .drp_box_link,
+.dark .rcntVwMdlBodyP,
+.dark .rcntVwMdlHdrB2P,
+.dark .rcntVwMdlHdrB1CntntHdng,
+.dark .user_box_center_desc,
+.dark .user_box_rightbtn,
+.dark .user_box_center_heading,
+.dark .ellipsis_circle_icon,
+.dark .fa-close,
+.dark .usrMdlHdrB1ContntHdng,
+.dark .rcntVwMdlRowP,
+.dark .usrMdlHdrB2P,
+.dark .rcntVwMdlRowIcn,
+.dark .searchBox_input,
+.dark .searchBox_input::placeholder,
+.dark .searchBoxBtnIcn,
+.dark .tableHdrSubBtnB2,
+.dark .pTableCol,
+.dark .roleTab,
+.dark .tableHdrSelT,
+.dark .tableHdrSelect,
+.dark .order_box_center_heading,
+.dark .bottom_navbar_left_page_name,
+.dark .asidbox_Link{
+    color: #fff;
+}
+.dark .dashboard_box_row_desc{
+    color: #fff;
+}
+.dark .navbar_search_box_input,
+.dark .navbar_search_box_input::placeholder{
+    color: #fff;
+}
+
+/* dark text color end */
+.dark .bottom_navbar_left_page_dot{
+    border-color: #fff;
+}
+.dark .navbar_search_box_input,
+.dark .navbar_noti_box_counter,
+.dark .drp_box,
+.dark .navbar_profile_box{
+    border-color: transparent;
+}
+/* dark border color end */
+.myModal,.modal,.modal-dialog,.modal-content{
+    border-radius: 15px !important;
+    overflow: hidden;
+}
+.dark .icon,
+.dark .delModal_heading,
+.dark .delModal_desc,
+.dark .asidbox_Link2,
+.dark .navbar_profile_box_menu_item_text,
+.dark .card_header_link:hover,
+.dark .hr_cardhdrBtnIcn1,
+.dark .navbar_profile_box_menu_item_icone_img,
+.dark .hr_cardhdrB2Date,
+.dark .pdTabLabel,
+.dark .radioLabel,
+.dark .prdctMdlHdng,
+.dark .hr_cardhdrB1CtntHdng{
+    color: #fff;
+}
+.dark .hr_cardhdrBtn:hover i,
+.dark .navbar_noti_box_details_box_desc,
+.dark .navbar_noti_box_details_box_name,
+.dark .navbar_noti_box_no-notification_text,
+.dark .delModalBtn1,
+.dark .modalClose,
+.dark .prdctMdlTbl tr td,
+.dark .page,
+.dark .prdctMdlTbl tr th,
+.dark .prdctMdl_hdng,
+.dark .sta,
+.dark .navbar_noti_box_details_header,
+.dark .hr_cardhdrBtnIcn:hover{
+    color: #fff !important;
+}
+.dark .pdTabInput,
+.dark .sr-only,
+.dark .pdTabInput::placeholder,
+.dark .dropdown-toggle::after{
+    color: #fff;
+}
+.dark .navbar_noti_box_details,
+.dark .delModalBtn1,
+.dark .dropdown-menu{
+    background-color: #1A2A3B;
+    border: none;
+}
+.dark .navbar_noti_box_details_box{
+    background-color: #2D343F;
+}
+.dark .prdctMdlTblBtn,
+.dark .navbar_noti_box_details_box:hover{
+    background-color: #15212D;
+}
+.dark .navbar_noti_box_details_box.unread {
+    background-color: #2D343F;
+}
+.dark .navbar_noti_box_details_box.unread::after{
+    background-color: #fff;
+}
+.dark .navbar_profile_box_menu_item:nth-last-child(1),
+.dark .tableHdrSelect option,
+.dark .usrMdlHdrB2,.dark .pagination,
+.dark .pdTabInput,
+.dark .pTableCol-img,
+.dark .pdTabTextarea,
+.dark .pdTabselect,
+.dark .navbar_noti_box_details_header{
+    border-color: #4A4A55;
+}
+.dark .page:hover,.dark .page.active{
+    background-color: #15212D;
+}
+.dark .pdTabInput,.dark .pdTabTextarea{
+    background-color: #1A2A3B;
+}
+.dark input::file-selector-button{
+    background-color: #15212D;
+    color: #fff;
+}
+.dark .accordianHdr,
+.dark input::file-selector-button:hover{
+    background-color: #4A4A55;
+}
+.dark .navbar_search_box_mobile_input,
+.dark .navbar_search_box_mobile_input::placeholder,
+.dark .pdTabselect,
+.dark .socialLinkInput::placeholder,
+.dark .formBoxInput::placeholder,
+.dark .editPrdtBox_input::placeholder,
+.dark .pdTabTextarea,
+.dark .pdTabTextarea::placeholder,
+.dark input[type="file"]{
+    color: #fff;
+}
+.dark .pdTabselect{
+    background-color: #1A2A3B;
+}
+.dark .socialLinkInput,
+.dark .formBoxInput,
+.dark .prdctMdlHdr,
+.dark .formBoxSelect,
+.dark .socialRow,
+.dark .navbar_search_box_mobile_input,
+.dark .tabsListItem .tabsListbtn{
+    border-color: #2D343F;
+    color: #fff;
+}
+.dark .accBdyPrc1,
+.dark .accBdyPrc,
+.dark .accbdRowBlbl,
+.dark .accBdyQty,
+.dark .accBdydesc,
+.dark .reportsBtn,
+.dark .accordianBdyRow,
+.dark .accordianHdrHdn,
+.dark .tabsListItem .tabsListbtn.active{
+    color: #fff !important;
+}
+
+.dark .modal-body::-webkit-scrollbar {
+    width: 1em;
+}
+   
+.dark .modal-body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+   
+.dark .modal-body::-webkit-scrollbar-thumb {
+    background-color: #15212D;
+    outline: 1px solid slategrey;
+}
+/*  */
+body::-webkit-scrollbar {
+    width: 1em;
+}
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #15212D;
+    outline: 1px solid slategrey;
+}
+.dark .socialLinkInput,
+.dark .formBoxSelect,
+.dark .formBoxInput,
+.dark .prdctMdlEdit{
+    background-color: #1A2A3B;
+}
+.dark .editPrdtBox_btn,
+.dark .prdctMdlEditSelect,
+.dark .editPrdtBox_input{
+    background-color: #2D343F !important;
+    color: #fff;
+}
+.dark .accordianDot{
+    border-color: #fff;
+}
+.dark .formBoxLabel,
+.dark .pTableCol .fa-eye{
+    color: #fff;
+}
+.dark .prdctRowTxt,
+.dark .prdctMdlHdr{
+    color: #fff;
+}
+.dark .productBtn{
+    background-color: #1B2632;
+}
+.dark .productTypeBtn{
+    background-color: #15212D;
+}
+.dark .reportBoxB{
+    background-color: #15212D;
+}
+.dark  .perText2,
+.dark .rolesCkbLbl,
+.dark .reportBox_p,
+.dark .reportBox_hdng{
+    color: #fff;
+}
+.dark .asideClose i{
+    color: #fff;
+}
+.dark .navbar_search_box_mobile.active{
+    background-color: #15212D;
+}
+.dark .navbar_search_box_mobile_input{
+    background-color: #2D343F;
+}
+.dark .empModlHdrB_hdng{
+    color: #fff;
+}
+.dark .empModlHdrB_desc{
+    color: #fff;
+}
+.dark .text{
+    color: #fff;
+}
+.dark .empModlHdr{
+    border-bottom: 1px solid #2D343F;
+}
+.dark .empMdlBox{
+    background-color: #15212D;
+}
+.dark .empMdlBox_text{
+    color: #fff;
+}

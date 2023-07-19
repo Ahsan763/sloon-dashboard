@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="_172532_put_out_icon" data-name="172532_put_out_icon" transform="translate(0.333 0.333)">
+    <rect id="Rectangle_589" data-name="Rectangle 589" width="28" height="28" transform="translate(-0.333 -0.333)" fill="none"/>
+    <circle id="Ellipse_138" data-name="Ellipse 138" cx="1.5" cy="1.5" r="1.5" transform="translate(19.667 23.667)" fill="none" stroke="#f5f5f5" stroke-miterlimit="10" stroke-width="2"/>
+    <circle id="Ellipse_139" data-name="Ellipse 139" cx="1.5" cy="1.5" r="1.5" transform="translate(12.667 23.667)" fill="none" stroke="#f5f5f5" stroke-miterlimit="10" stroke-width="2"/>
+    <circle id="Ellipse_140" data-name="Ellipse 140" cx="1.5" cy="1.5" r="1.5" transform="translate(-0.333 0.667)" fill="#fff"/>
+    <path id="Path_573" data-name="Path 573" d="M23.321,24.867H14.961c-1.87,0-2.144-.953-2.473-2.2L8.118,5.021C7.725,3.7,7.171,3,5.643,3H2" transform="translate(-0.907 -1.36)" fill="none" stroke="#f5f5f5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.987"/>
+    <path id="Path_574" data-name="Path 574" d="M35.051,16,31.12,26.387H20.641" transform="translate(-9.357 -7.253)" fill="none" stroke="#f5f5f5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.987"/>
+    <path id="Path_575" data-name="Path 575" d="M26,4.733,28.733,2l2.733,2.733" transform="translate(-11.786 -0.907)" fill="none" stroke="#f5f5f5" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_17" data-name="Line 17" y1="10.752" transform="translate(16.947 1.275)" fill="none" stroke="#f5f5f5" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>
