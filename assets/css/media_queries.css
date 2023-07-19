@@ -96,13 +96,15 @@
     .bottom_navbar_datebox {
         gap: 7px;
     }
-    .navbar_noti_box,.post_box_left,.ellipsis_circle{
+    .ellipsis_circle{
+        width: 100px;
+        height: 100px;
+    }
+    .navbar_noti_box,.post_box_left{
         width: 40px;
         height: 40px;
     }
-    .ellipsis_circle_img{
-        height: 18px;
-    }
+
     .navbar_noti_box_icone,.post_box_left_icon,.user_box_left_icon,.ellipsis_circle_icon {
         font-size: 15px;
     }
